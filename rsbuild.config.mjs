@@ -14,4 +14,17 @@ export default defineConfig({
     cssFilename: "css/[name].css",
     assetModuleFilename: "assets/[hash][ext]",
   },
+  source: {
+    // 指定入口文件
+   
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+    extensions: [".js", ".json", ".wasm", ".vue", ".jsx", ".tsx"],
+  },
+  // resolve: {
+  //     alias: {
+  //       "@": path.resolve(__dirname, 'src')
+  //     },
+  // }
 });

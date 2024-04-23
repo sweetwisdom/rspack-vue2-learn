@@ -28,6 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/css/reset.scss';
 $mainColor: #138fda;
 $mainSize: 22px;
 .app {
