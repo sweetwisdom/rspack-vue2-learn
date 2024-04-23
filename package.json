@@ -10,6 +10,9 @@
   "dependencies": {
     "vue": "^2.7.14"
   },
+  "engines": {
+  "node": ">=16"
+   },
   "devDependencies": {
     "@rsbuild/core": "^0.6.5",
     "@rsbuild/plugin-vue2": "^0.6.5"
